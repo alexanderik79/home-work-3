@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/pages/about.html">About</a></li>
+                    <li><a href="/pages/articles.html">Articles</a></li>
+                    <li><a href="/pages/gallery.html">Gallery</a></li>
+                    <li><a href="/pages/contacts.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section>
+                <h1>Contact Us</h1>
+                <p>If you have any questions or need more information, feel free to reach out to us using the form below.</p>
+
+                <form class="contact-form" action="#" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="" disabled selected>Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                
+                    <div>
+                        <label for="agree">I agree</label>
+                        <input type="checkbox" id="agree" name="agree" required>
+                    </div>
+                
+                    <button type="submit">Submit</button>
+                </form>    
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Our Company. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
