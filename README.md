@@ -41,7 +41,7 @@ This project is created to practice and demonstrate skills in HTML and CSS, focu
 
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/alexanderik79/home-work-3>
+   git clone https://github.com/alexanderik79/home-work-3
 2. Open the index.html file in any modern web browser.
 3. Explore the different pages and features, including:
 - The consistent layout across pages.
