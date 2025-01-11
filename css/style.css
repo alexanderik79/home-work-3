@@ -1,5 +1,5 @@
 body {
-    background-color: #d8d8d8; 
+    background-color: #8fb1d8; 
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -85,7 +85,7 @@ header nav ul li a:hover {
 }
 
 footer {
-    background-color: #d8d8d8;
+    background-color: #8fb1d8;
     color: #000000;
     text-align: center;
     padding: 10px 0;
